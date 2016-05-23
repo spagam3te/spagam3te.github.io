@@ -6,7 +6,7 @@
 
 
 <body>
-	<div class="navy">
+	<div id="back" class="navy">
 		<img id="rocketid" src="rocket.png" width= "256"></img>
 	</div>
 	<button type="button" onclick = "fly()"> Rocket Button</button>
@@ -15,6 +15,7 @@
 	function fly() 
 	{
 			document.getElementById("rocketid").setAttribute("src","frog.gif");
+			document.getElementById("back").setAttribute("class","orange");
 	}
 	</script>
 </body>
